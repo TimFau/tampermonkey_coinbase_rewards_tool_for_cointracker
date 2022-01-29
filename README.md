@@ -1,6 +1,6 @@
 # Tampermonkey Coinbase Rewards Tool for Cointracker.io
 ## About
-Since Cointracker does not currently support bulk editing of transactions, this tool allows you to automaticly mark all 'Coinbase Rewards' transactions as 'Staked'. It identifies all transactions that contain the message 'reward<br>From Coinbase' and selects the 'Mark as staking reward' option, if not already selected.
+Since Cointracker does not currently support bulk editing of transactions, this tool allows you to automatically mark all 'Coinbase Rewards' transactions as 'Staked'. It identifies all transactions that contain the message 'reward<br>From Coinbase' and selects the 'Mark as staking reward' option, if not already selected.
 
 ## How it works.
 When you visit any 'Transactions' page, this button is added to the page.
@@ -11,7 +11,7 @@ When you click the button, it will ask if you would like to run it for all pages
 </br></br>
 ![image](https://user-images.githubusercontent.com/7255687/151669129-2772d9a9-c103-4c2d-95d0-3dd5165ec74d.png)
 
-If you select 'ok' it will automaticaly mark all 'Coinbase Rewards' transactions on the page as 'Staked' and then automaticaly navigate to the next page until all 'Coinbase Rewards' transactions on all pages are updated.
+If you select 'ok' it will automatically mark all 'Coinbase Rewards' transactions on the page as 'Staked' and then automatically navigate to the next page until all 'Coinbase Rewards' transactions on all pages are updated.
 
 If you select 'cancel', it will also mark all relevent transaction on the page except it will confirm if you would like to continue to the next page or not.
 </br></br>
